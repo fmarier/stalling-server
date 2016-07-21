@@ -4,7 +4,7 @@
 // To use:
 //
 // 1. start the server using `node ./index.js`
-// 2. set browser.safebrowsing.appRepURL` to `http://localhost:8000`
+// 2. set `browser.safebrowsing.downloads.remote.url` to `http://localhost:8000`
 // 3. go to <http://testsafebrowsing.appspot.com/> and download the second binary under "Download Warnings"
 
 const http = require('http');
